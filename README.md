@@ -1,3 +1,3 @@
 # MLZoomCamp
 
-Reository for my class projects.
+Repository for my class projects.
