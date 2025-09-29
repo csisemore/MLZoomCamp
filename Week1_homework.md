@@ -5,9 +5,9 @@
 You need to install Python, NumPy, Pandas, Matplotlib and Seaborn. For that, you can use the instructions from
 [06-environment.md](../../../01-intro/06-environment.md).
 
-### Q1. Pandas version
+### Q1. Pandas version  
 
-What's the version of Pandas that you installed?
+What's the version of Pandas that you installed?  **2.2.2**
 
 You can get the version information using the `__version__` field:
 
@@ -30,7 +30,7 @@ Now read it with Pandas.
 
 ### Q2. Records count
 
-How many records are in the dataset?
+How many records are in the dataset? **9704**
 
 - 4704
 - 8704
@@ -39,7 +39,7 @@ How many records are in the dataset?
 
 ### Q3. Fuel types
 
-How many fuel types are presented in the dataset?
+How many fuel types are presented in the dataset? **2**
 
 - 1
 - 2
@@ -48,7 +48,7 @@ How many fuel types are presented in the dataset?
 
 ### Q4. Missing values
 
-How many columns in the dataset have missing values?
+How many columns in the dataset have missing values? **4**
 
 - 0
 - 1
@@ -58,7 +58,7 @@ How many columns in the dataset have missing values?
 
 ### Q5. Max fuel efficiency
 
-What's the maximum fuel efficiency of cars from Asia?
+What's the maximum fuel efficiency of cars from Asia? **23.75**
 
 - 13.75
 - 23.75
@@ -69,12 +69,12 @@ What's the maximum fuel efficiency of cars from Asia?
 
 
 
-1. Find the median value of `horsepower` column in the dataset.
-2. Next, calculate the most frequent value of the same `horsepower` column.
+1. Find the median value of `horsepower` column in the dataset. **149**
+2. Next, calculate the most frequent value of the same `horsepower` column. **152**
 3. Use `fillna` method to fill the missing values in `horsepower` column with the most frequent value from the previous step.
 4. Now, calculate the median value of `horsepower` once again.
 
-Has it changed?
+Has it changed?  **No**
 
 
 - Yes, it increased
